@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        #map {
+        height: 600px; /* ここの数値は適宜調整してください */
+        width: 100%;
+        }
+        .hp-container{
+            width: 100px;
+            height: 10px;
+            background: #eee;
+            border:1px solid #999;
+            margin-top: 5px;
+        }
+        .hp-bar{
+            height: 100%; 
+            width: 0%; 
+            transition: width 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <h1>スネイリ民主主義共和国・国土防衛マップ</h1>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+        // 1. 地図の初期化
+        const map = L.map('map').setView([46.97, 142.73], 7);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        // 【最重要】基地のデータを溜める箱を、一番最初に作っておきます
+        let bases = [];
+
+        // 2. GeoJSONを読み込んで、エリア（区画）をクリックできるようにする
+        fetch('pref.json')
+        .then(res => res.json())
+        .then(data => {
+            L.geoJSON(data, {
+                style: { color: 'gray', weight: 1, fillColor: 'blue', fillOpacity: 0.3 },
+                onEachFeature: function (feature, layer) {
+                    layer.on('click', function (e) {
+                        // クリックされた正確な緯度経度を直接取り出して渡す
+                        const clickLat = e.latlng.lat;
+                        const clickLng = e.latlng.lng;
+                        createBase(clickLat, clickLng, layer);
+                    });
+                }
+            }).addTo(map);
+        });
+        fetch('russian.geojson')
+        .then(res => res.json())
+        .then(data => {
+            L.geoJSON(data, {
+                style: { color: '#2d4a1e', weight: 1, fillColor: '#4d7336', fillOpacity: 0.5 },
+                onEachFeature: function (feature, layer) {
+                    layer.on('click', function (e) {
+                        // クリックされた正確な緯度経度を直接取り出して渡す
+                        const clickLat = e.latlng.lat;
+                        const clickLng = e.latlng.lng;
+                        createBase(clickLat, clickLng, layer);
+                    });
+                }
+            }).addTo(map);
+        });
+        // 今まで：1_tohoku.json, 2_kanto.json ...と何回も読み込んで合体させていた
+// これから：一撃で日本全土を読み込む！
+        // 新しい神データを一撃で読み込むコード
+        fetch('japan.geojson') // さっき置いたファイル名に合わせてね！
+            .then(response => response.json())
+            .then(data => {
+                L.geoJSON(data, {
+                    style: function(feature) {
+                        // 初期状態の所属国コード（JPN：日本など）がデータにあれば、それに応じて色分け
+                        // なければ基本のピンク（日本カラー）にする
+                        return {
+                            color: '#4a4a4a',       // 県境の線の色（すっきりしたグレー）
+                            weight: 1,              // 線の太さ
+                            fillColor: '#ffb6c1',   // 中の色（基本のサクラピンク）
+                            fillOpacity: 0.5        // 透明度
+                        };
+                    },
+                
+            
+            onEachFeature: function (feature, layer) {
+                // 都道府県ごとのクリックイベント
+                layer.on('click', function (e) {
+                    // GitHubのデータに記録されている「都道府県名」をコンソールに出してみる
+                    // ※データによって properties.name や properties.nam_1 など名前が違うので、
+                    //   もし出なかったら feature.properties を確認してみてね！
+                    const prefName = feature.properties.name || feature.properties.nam_1 || "未定義の県";
+                    console.log(prefName + " がクリックされました！");
+                    
+                    // ここにいつもの拠点作成やスネイリブルーに染める関数を呼び出す
+                    createBase(e.latlng.lat, e.latlng.lng, layer);
+                });
+            }
+        }).addTo(map);
+    })
+    .catch(error => console.error('日本地図の読み込みに失敗しました…:', error));
+
+        // 3. 基地を作るための関数
+        function createBase(lat, lng, targetArea) {
+            const baseName = "基地_" + (bases.length + 1);
+
+            // 最初は「建設中」の目印（黄色）
+            const marker = L.circle([lat, lng], { color: 'yellow', radius: 500, fillOpacity: 0.7 }).addTo(map);
+            
+            // ポップアップ
+            marker.bindPopup(`
+                <b>${baseName}</b><br>
+                <div class="hp-container">
+                    <div id="bar-${baseName}" class="hp-bar" style="background: yellow;"></div>
+                </div>
+                <span id="text-${baseName}">建設中...</span>
+            `).openPopup();
+
+            // 建設シミュレーション
+            let progress = 0;
+            const interval = setInterval(() => {
+                progress += 10;
+                const bar = document.getElementById(`bar-${baseName}`);
+                if (bar) bar.style.width = progress + "%";
+
+                if (progress >= 100) {
+                    clearInterval(interval);
+                    
+                    // 建設完了のUI変更
+                    document.getElementById(`bar-${baseName}`).style.background = "blue";
+                    document.getElementById(`text-${baseName}`).innerText = "建設完了";
+                    marker.setStyle({ color: 'blue' });
+                    
+                    // ここで用意していた占領関数を呼び出す
+                    occupyArea(targetArea);
+                    
+                    // データを保存（ここで bases を使います）
+                    bases.push({ name: baseName, lat: lat, lng: lng, hp: 100 });
+                    console.log("建設完了！現在のデータ:", bases);
+                }
+            }, 300);
+        }
+
+        // 4. エリアを塗りつぶす関数
+        function occupyArea(targetArea){
+            targetArea.setStyle({
+                fillColor: 'blue',
+                fillOpacity: 0.5,
+                color: 'blue'
+            });
+            console.log("領土は占領されました。");
+        }
+    </script>
+</body>
+</html>
