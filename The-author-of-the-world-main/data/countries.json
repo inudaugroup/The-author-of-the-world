@@ -1,0 +1,84 @@
+{
+    "SNL": {
+        "name": "スネイリ民主主義共和国",
+        "color": "blue",
+
+        "capital": {
+            "name": "アイスポーク",
+            "lat": 49.3769,
+            "lng": 144.0072
+        },
+
+        "map": "maps/pref.json",
+
+        "backupcities": [
+            {
+                "name": "アイスポーク",
+                "lat": 49.3769,
+                "lng": 144.0072
+            }
+        ]
+    },
+
+    "CHN": {
+        "name": "中華人民共和国",
+        "color": "yellow",
+
+        "capital": {
+            "name": "北京市",
+            "lat": 39.9042,
+            "lng": 116.4074
+        },
+
+        "map": "maps/china.json",
+
+"backupcities": [
+    {
+        "name": "上海市",
+        "lat": 31.2304,
+        "lng": 121.4737
+    },
+    {
+        "name": "南京市",
+        "lat": 32.0603,
+        "lng": 118.7969
+    },
+    {
+        "name": "重庆市",
+        "lat": 29.5630,
+        "lng": 106.5516
+    },
+    {
+        "name": "天津市",
+        "lat": 39.0842,
+        "lng": 117.2000
+    }
+]
+        
+    },
+    "KOR" : {
+        "name": "大韓民国",
+        "color": "#6bb6ff",
+        "capital":"ソウル",
+        "map": "maps/korea(s).json"
+    },
+    "RUS" : {
+        "name": "ロシア連邦",
+        "color": "#4d7336",
+        "capital":"モスクワ",
+        "map": "maps/russian.json"
+    },
+    "JPN" : {
+        "name": "日本国",
+        "color": "pink",
+        "capital":"東京",
+        "map": "maps/japan.json"
+    },
+    "DPRK" : {
+        "name": "朝鮮民主主義人民共和国",
+        "color": "#ff0000",
+        "capital":"平壌",
+        "map": "maps/korea(n).json"
+    }
+
+}

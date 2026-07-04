@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        #map {
+        height: 600px; /* ここの数値は適宜調整してください */
+        width: 100%;
+        }
+        .hp-container{
+            width: 100px;
+            height: 10px;
+            background: #eee;
+            border:1px solid #999;
+            margin-top: 5px;
+        }
+        .hp-bar{
+            height: 100%; 
+            width: 0%; 
+            transition: width 0.5s;
+        }
+        #actionMenu{
+            position:absolute;
+            display:none;
+
+            background:white;
+            border:1px solid black;
+            padding:10px;
+
+            z-index:9999;
+        }
+
+        #actionMenu button{
+            display:block;
+            width:100%;
+            margin:2px 0;
+        }
+    </style>
+</head>
+
+<body>
+    
+<div id="actionMenu">
+    <button onclick="buildSelectedCity()">都市建設</button>
+    <button onclick="showSelectedInfo()">国家情報</button>
+    <button>・・・</button>
+</div>
+
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
