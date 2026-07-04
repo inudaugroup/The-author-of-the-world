@@ -2,15 +2,12 @@
     "SNL": {
         "name": "スネイリ民主主義共和国",
         "color": "blue",
-
         "capital": {
             "name": "アイスポーク",
             "lat": 49.3769,
             "lng": 144.0072
         },
-
         "map": "maps/pref.json",
-
         "backupcities": [
             {
                 "name": "アイスポーク",
@@ -19,66 +16,76 @@
             }
         ]
     },
-
     "CHN": {
         "name": "中華人民共和国",
         "color": "yellow",
-
         "capital": {
             "name": "北京市",
             "lat": 39.9042,
             "lng": 116.4074
         },
-
         "map": "maps/china.json",
-
-"backupcities": [
-    {
-        "name": "上海市",
-        "lat": 31.2304,
-        "lng": 121.4737
-    },
-    {
-        "name": "南京市",
-        "lat": 32.0603,
-        "lng": 118.7969
-    },
-    {
-        "name": "重庆市",
-        "lat": 29.5630,
-        "lng": 106.5516
-    },
-    {
-        "name": "天津市",
-        "lat": 39.0842,
-        "lng": 117.2000
-    }
-]
-        
+        "backupcities": [
+            {
+                "name": "上海市",
+                "lat": 31.2304,
+                "lng": 121.4737
+            },
+            {
+                "name": "南京市",
+                "lat": 32.0603,
+                "lng": 118.7969
+            },
+            {
+                "name": "重庆市",
+                "lat": 29.5630,
+                "lng": 106.5516
+            },
+            {
+                "name": "天津市",
+                "lat": 39.0842,
+                "lng": 117.2000
+            }
+        ]
     },
     "KOR" : {
         "name": "大韓民国",
         "color": "#6bb6ff",
-        "capital":"ソウル",
+        "capital": {
+            "name": "ソウル",
+            "lat": 37.5665,
+            "lng": 126.9780
+        },
         "map": "maps/korea(s).json"
     },
     "RUS" : {
         "name": "ロシア連邦",
         "color": "#4d7336",
-        "capital":"モスクワ",
+        "capital": {
+            "name": "モスクワ",
+            "lat": 55.7558,
+            "lng": 37.6173
+        },
         "map": "maps/russian.json"
     },
     "JPN" : {
         "name": "日本国",
         "color": "pink",
-        "capital":"東京",
+        "capital": {
+            "name": "東京都",
+            "lat": 35.6895,
+            "lng": 139.6917
+        },
         "map": "maps/japan.json"
     },
     "DPRK" : {
         "name": "朝鮮民主主義人民共和国",
         "color": "#ff0000",
-        "capital":"平壌",
+        "capital": {
+            "name": "平壌",
+            "lat": 39.0392,
+            "lng": 125.7625
+        },
         "map": "maps/korea(n).json"
     }
-
 }

@@ -1,8 +1,93 @@
-    let selectedLayer = null;
-    let selectedLat = null;
-    let selectedLng = null;
-    let countriesData = {};
-    let surrenderedCountries = [];
+let selectedLayer = null;
+let selectedLat = null;
+let selectedLng = null;
+let countriesData = {};
+let surrenderedCountries = [];
+let playerCountry = null;
+
+    // 国を選択したときに呼び出される関数
+    function selectCountry(tag) {
+        playerCountry = tag;
+        console.log("プレイヤーターゲット国家:", playerCountry);
+        
+        // 国家選択画面を非表示にする
+        document.getElementById("countrySelectModal").style.display = "none";
+        const country = countriesData[tag];
+        if (country && country.capital && country.capital.lat && country.capital.lng) {
+            let zoomlevel = 7;
+            if(tag === "RUS") zoomlevel=5;
+
+            map.flyTo([country.capital.lat, country.capital.lng], 7, {
+                animate: true,
+                duration: 1.8
+            });
+            setTimeout(() => {
+                spawnInitialCapitals();
+            },1000);
+            alert(`${country.name} (${tag}) でプレイを開始します。首都 ${country.capital.name} から国土を防衛してください！`);
+        } else{
+            alert(`${tag}でプレイを開始します`)
+        }
+        
+    }
+    function spawnInitialCapitals() {
+    console.log("初期首都の配置を開始します...");
+
+    // countriesDataに登録されているすべての国をループする
+    Object.entries(countriesData).forEach(([tag, country]) => {
+        if (country.capital && country.capital.lat && country.capital.lng) {
+            const lat = country.capital.lat;
+            const lng = country.capital.lng;
+            const cityName = country.capital.name + "(首都)";
+
+            // 地図上のすべてのレイヤー（行政区画）から、この首都の座標が含まれるレイヤーを自動で探す
+            let targetLayer = null;
+            map.eachLayer(layer => {
+                // GeoJSONのレイヤーかつ、クリックイベントが設定されているもの（区画データ）
+                if (layer.feature && typeof layer.getBounds === 'function') {
+                    // 首都の座標がその区画の範囲（境界）に入っているか簡易チェック
+                    if (layer.getBounds().contains([lat, lng])) {
+                        targetLayer = layer;
+                    }
+                }
+            });
+
+            // もし座標が一致する行政区画が見つかったら、そこに都市を自動建設！
+            if (targetLayer) {
+                // すでに都市がある場合はスキップ
+                if (targetLayer.hasCity) return;
+
+                // 最初から建設完了状態の都市（サークル）を直接マップに配置する
+                const baseColor = country.color || "blue";
+                const marker = L.circle([lat, lng], { color: baseColor, radius: 600, fillOpacity: 0.7 }).addTo(map);
+                
+                // ポップアップの設定
+                marker.bindPopup(`
+                    <b>${cityName}</b><br>
+                    <div class="hp-container">
+                        <div id="bar-${cityName}" class="hp-bar" style="background: ${baseColor}; width: 100%;"></div>
+                    </div>
+                    <span>建設完了（初期首都）</span>
+                `);
+
+                // エリアに都市があるフラグを立て、所有者をその国のタグにする
+                targetLayer.hasCity = true;
+                targetLayer.feature.properties.owner = tag;
+                targetLayer.setStyle({
+                    fillColor: baseColor,
+                    fillOpacity: 0.5,
+                    color: 'gray'
+                });
+
+                // 都市データ配列に保存
+                citys.push({ name: cityName, lat: lat, lng: lng, hp: 100, owner: tag });
+                console.log(`${country.name}の首都 ${cityName} を配置しました。`);
+            }
+        }
+    });
+    
+    console.log("初期首都の配置が完了しました！現在の全都市データ:", citys);
+    }
 
     const map = L.map('map', {
             worldCopyJump: false,
@@ -35,14 +120,19 @@
                             feature.properties.owner = tag;
                         });
 
+                        // ⭕ 修正コード（game_2.js）
                         L.geoJSON(data, {
-
+                            filter: function(feature) {
+                                // 一旦フィルターを無効化して、すべての区画を表示させる
+                                return true; 
+                            },
                             style: {
                                 color: "gray",
                                 weight: 1,
                                 fillColor: country.color,
                                 fillOpacity: 0.5
                             },
+                            // （以下略）
 
                             onEachFeature: function(feature, layer){
 
@@ -131,11 +221,15 @@
 
         // 4. エリアを塗りつぶす関数
         function occupyArea(targetArea){
-            targetArea.feature.properties.owner = "SNL";
+            const currentCountry=countriesData[playerCountry];
+
+            const ownerTag = playerCountry ? playerCountry : "SNL";
+            const fillColor = currentCountry ? currentCountry.color: "blue";
+            targetArea.feature.properties.owner = "ownerTag";
             targetArea.setStyle({
-                fillColor: 'blue',
+                fillColor: fillColor,
                 fillOpacity: 0.5,
-                color: 'blue',
+                color: "gray",
             });
             console.log("領土は占領されました。");
             
