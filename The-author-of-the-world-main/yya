@@ -1,0 +1,1359 @@
+{
+   "ABW": {
+        "name": "Aruba",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/aruba.json"
+    },
+    "AFG": {
+        "name": "Afghanistan",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/afghanistan.json"
+    },
+    "AGO": {
+        "name": "Angola",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/angola.json"
+    },
+    "AIA": {
+        "name": "Anguilla",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/anguilla.json"
+    },
+    "ALA": {
+        "name": "Åland Islands",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/åland_islands.json"
+    },
+    "ALB": {
+        "name": "Albania",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/albania.json"
+    },
+    "AND": {
+        "name": "Andorra",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/andorra.json"
+    },
+    "ARE": {
+        "name": "United Arab Emirates",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/united_arab_emirates.json"
+    },
+    "ARG": {
+        "name": "Argentina",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/argentina.json"
+    },
+    "ARM": {
+        "name": "Armenia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/armenia.json"
+    },
+    "ASM": {
+        "name": "American Samoa",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/american_samoa.json"
+    },
+    "ATA": {
+        "name": "Antarctica",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/antarctica.json"
+    },
+    "ATF": {
+        "name": "French Southern Territories",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/french_southern_territories.json"
+    },
+    "ATG": {
+        "name": "Antigua and Barbuda",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/antigua_and_barbuda.json"
+    },
+    "AUS": {
+        "name": "Australia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/australia.json"
+    },
+    "AUT": {
+        "name": "Austria",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/austria.json"
+    },
+    "AZE": {
+        "name": "Azerbaijan",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/azerbaijan.json"
+    },
+    "BDI": {
+        "name": "Burundi",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/burundi.json"
+    },
+    "BEL": {
+        "name": "Belgium",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/belgium.json"
+    },
+    "BEN": {
+        "name": "Benin",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/benin.json"
+    },
+    "BFA": {
+        "name": "Burkina Faso",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/burkina_faso.json"
+    },
+    "BGD": {
+        "name": "Bangladesh",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/bangladesh.json"
+    },
+    "BGR": {
+        "name": "Bulgaria",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/bulgaria.json"
+    },
+    "BHR": {
+        "name": "Bahrain",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/bahrain.json"
+    },
+    "BHS": {
+        "name": "Bahamas",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/bahamas.json"
+    },
+    "BIH": {
+        "name": "Bosnia and Herzegovina",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/bosnia_and_herzegovina.json"
+    },
+    "BLM": {
+        "name": "Saint Barthélemy",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/saint_barthélemy.json"
+    },
+    "BLR": {
+        "name": "Belarus",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/belarus.json"
+    },
+    "BLZ": {
+        "name": "Belize",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/belize.json"
+    },
+    "BMU": {
+        "name": "Bermuda",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/bermuda.json"
+    },
+    "BOL": {
+        "name": "Bolivia, Plurinational State of",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/bolivia_plurinational_state_of.json"
+    },
+    "BRA": {
+        "name": "Brazil",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/brazil.json"
+    },
+    "BRB": {
+        "name": "Barbados",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/barbados.json"
+    },
+    "BRN": {
+        "name": "Brunei Darussalam",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/brunei_darussalam.json"
+    },
+    "BTN": {
+        "name": "Bhutan",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/bhutan.json"
+    },
+    "BWA": {
+        "name": "Botswana",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/botswana.json"
+    },
+    "CAF": {
+        "name": "Central African Republic",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/central_african_republic.json"
+    },
+    "CAN": {
+        "name": "Canada",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/canada.json"
+    },
+    "CHE": {
+        "name": "Switzerland",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/switzerland.json"
+    },
+    "CHL": {
+        "name": "Chile",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/chile.json"
+    },
+    "CIV": {
+        "name": "Côte d'Ivoire",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/côte_d'ivoire.json"
+    },
+    "CMR": {
+        "name": "Cameroon",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/cameroon.json"
+    },
+    "COD": {
+        "name": "Congo, the Democratic Republic of the",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/congo_the_democratic_republic_of_the.json"
+    },
+    "COG": {
+        "name": "Congo",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/congo.json"
+    },
+    "COK": {
+        "name": "Cook Islands",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/cook_islands.json"
+    },
+    "COL": {
+        "name": "Colombia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/colombia.json"
+    },
+    "COM": {
+        "name": "Comoros",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/comoros.json"
+    },
+    "CPV": {
+        "name": "Cabo Verde",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/cabo_verde.json"
+    },
+    "CRI": {
+        "name": "Costa Rica",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/costa_rica.json"
+    },
+    "CUB": {
+        "name": "Cuba",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/cuba.json"
+    },
+    "CUW": {
+        "name": "Curaçao",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/curaçao.json"
+    },
+    "CYM": {
+        "name": "Cayman Islands",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/cayman_islands.json"
+    },
+    "CYP": {
+        "name": "Cyprus",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/cyprus.json"
+    },
+    "CZE": {
+        "name": "Czechia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/czechia.json"
+    },
+    "DEU": {
+        "name": "Germany",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/germany.json"
+    },
+    "DJI": {
+        "name": "Djibouti",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/djibouti.json"
+    },
+    "DMA": {
+        "name": "Dominica",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/dominica.json"
+    },
+    "DNK": {
+        "name": "Denmark",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/denmark.json"
+    },
+    "DOM": {
+        "name": "Dominican Republic",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/dominican_republic.json"
+    },
+    "DZA": {
+        "name": "Algeria",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/algeria.json"
+    },
+    "ECU": {
+        "name": "Ecuador",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/ecuador.json"
+    },
+    "EGY": {
+        "name": "Egypt",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/egypt.json"
+    },
+    "ERI": {
+        "name": "Eritrea",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/eritrea.json"
+    },
+    "ESH": {
+        "name": "Western Sahara",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/western_sahara.json"
+    },
+    "ESP": {
+        "name": "Spain",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/spain.json"
+    },
+    
+    "ETH": {
+        "name": "Ethiopia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/ethiopia.json"
+    },
+    "FIN": {
+        "name": "Finland",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/finland.json"
+    },
+    "FJI": {
+        "name": "Fiji",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/fiji.json"
+    },
+    "FLK": {
+        "name": "Falkland Islands (Malvinas)",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/falkland_islands_malvinas.json"
+    },
+    "FRA": {
+        "name": "France",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/france.json"
+    },
+    "FRO": {
+        "name": "Faroe Islands",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/faroe_islands.json"
+    },
+    "FSM": {
+        "name": "Micronesia, Federated States of",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/micronesia_federated_states_of.json"
+    },
+    "GAB": {
+        "name": "Gabon",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/gabon.json"
+    },
+    "GBR": {
+        "name": "United Kingdom",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/united_kingdom.json"
+    },
+    "GEO": {
+        "name": "Georgia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/georgia.json"
+    },
+    "GGY": {
+        "name": "Guernsey",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/guernsey.json"
+    },
+    "GHA": {
+        "name": "Ghana",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/ghana.json"
+    },
+    "GIB": {
+        "name": "Gibraltar",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/gibraltar.json"
+    },
+    "GIN": {
+        "name": "Guinea",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/guinea.json"
+    },
+    "GMB": {
+        "name": "Gambia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/gambia.json"
+    },
+    "GNB": {
+        "name": "Guinea-Bissau",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/guinea-bissau.json"
+    },
+    "GNQ": {
+        "name": "Equatorial Guinea",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/equatorial_guinea.json"
+    },
+    "GRC": {
+        "name": "Greece",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/greece.json"
+    },
+    "GRD": {
+        "name": "Grenada",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/grenada.json"
+    },
+    "GRL": {
+        "name": "Greenland",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/greenland.json"
+    },
+    "GTM": {
+        "name": "Guatemala",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/guatemala.json"
+    },
+    "GUM": {
+        "name": "Guam",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/guam.json"
+    },
+    "GUY": {
+        "name": "Guyana",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/guyana.json"
+    },
+    "HKG": {
+        "name": "Hong Kong",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/hong_kong.json"
+    },
+    "HMD": {
+        "name": "Heard Island and McDonald Islands",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/heard_island_and_mcdonald_islands.json"
+    },
+    "HND": {
+        "name": "Honduras",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/honduras.json"
+    },
+    "HRV": {
+        "name": "Croatia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/croatia.json"
+    },
+    "HTI": {
+        "name": "Haiti",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/haiti.json"
+    },
+    "HUN": {
+        "name": "Hungary",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/hungary.json"
+    },
+    "IDN": {
+        "name": "Indonesia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/indonesia.json"
+    },
+    "IMN": {
+        "name": "Isle of Man",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/isle_of_man.json"
+    },
+    "IND": {
+        "name": "India",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/india.json"
+    },
+    "IOT": {
+        "name": "British Indian Ocean Territory",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/british_indian_ocean_territory.json"
+    },
+    
+    "IRN": {
+        "name": "Iran, Islamic Republic of",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/iran_islamic_republic_of.json"
+    },
+    "IRQ": {
+        "name": "Iraq",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/iraq.json"
+    },
+    "ISL": {
+        "name": "Iceland",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/iceland.json"
+    },
+    "ISR": {
+        "name": "Israel",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/israel.json"
+    },
+    "ITA": {
+        "name": "Italy",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/italy.json"
+    },
+    "JAM": {
+        "name": "Jamaica",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/jamaica.json"
+    },
+    "JEY": {
+        "name": "Jersey",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/jersey.json"
+    },
+    "JOR": {
+        "name": "Jordan",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/jordan.json"
+    },
+    "KAZ": {
+        "name": "Kazakhstan",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/kazakhstan.json"
+    },
+    "KEN": {
+        "name": "Kenya",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/kenya.json"
+    },
+    "KGZ": {
+        "name": "Kyrgyzstan",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/kyrgyzstan.json"
+    },
+    "KHM": {
+        "name": "Cambodia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/cambodia.json"
+    },
+    "KIR": {
+        "name": "Kiribati",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/kiribati.json"
+    },
+    "KNA": {
+        "name": "Saint Kitts and Nevis",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/saint_kitts_and_nevis.json"
+    },
+    "KWT": {
+        "name": "Kuwait",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/kuwait.json"
+    },
+    
+    "LBN": {
+        "name": "Lebanon",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/lebanon.json"
+    },
+    "LBR": {
+        "name": "Liberia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/liberia.json"
+    },
+    "LBY": {
+        "name": "Libya",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/libya.json"
+    },
+    "LCA": {
+        "name": "Saint Lucia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/saint_lucia.json"
+    },
+    "LIE": {
+        "name": "Liechtenstein",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/liechtenstein.json"
+    },
+    "LKA": {
+        "name": "Sri Lanka",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/sri_lanka.json"
+    },
+    "LSO": {
+        "name": "Lesotho",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/lesotho.json"
+    },
+    "LTU": {
+        "name": "Lithuania",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/lithuania.json"
+    },
+    "LUX": {
+        "name": "Luxembourg",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/luxembourg.json"
+    },
+    "LVA": {
+        "name": "Latvia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/latvia.json"
+    },
+    "MAC": {
+        "name": "Macao",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/macao.json"
+    },
+    "MAF": {
+        "name": "Saint Martin (French part)",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/saint_martin_french_part.json"
+    },
+    "MAR": {
+        "name": "Morocco",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/morocco.json"
+    },
+    "MCO": {
+        "name": "Monaco",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/monaco.json"
+    },
+    "MDA": {
+        "name": "Moldova, Republic of",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/moldova_republic_of.json"
+    },
+    "MDG": {
+        "name": "Madagascar",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/madagascar.json"
+    },
+    "MDV": {
+        "name": "Maldives",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/maldives.json"
+    },
+    "MEX": {
+        "name": "Mexico",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/mexico.json"
+    },
+    "MHL": {
+        "name": "Marshall Islands",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/marshall_islands.json"
+    },
+    "MKD": {
+        "name": "Macedonia, the former Yugoslav Republic of",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/macedonia_the_former_yugoslav_republic_of.json"
+    },
+    "MLI": {
+        "name": "Mali",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/mali.json"
+    },
+    "MMR": {
+        "name": "Myanmar",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/myanmar.json"
+    },
+    
+    "MNG": {
+        "name": "Mongolia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/mongolia.json"
+    },
+    "MNP": {
+        "name": "Northern Mariana Islands",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/northern_mariana_islands.json"
+    },
+    "MOZ": {
+        "name": "Mozambique",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/mozambique.json"
+    },
+    "MRT": {
+        "name": "Mauritania",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/mauritania.json"
+    },
+    "MSR": {
+        "name": "Montserrat",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/montserrat.json"
+    },
+    "MUS": {
+        "name": "Mauritius",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/mauritius.json"
+    },
+    "MWI": {
+        "name": "Malawi",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/malawi.json"
+    },
+    "MYS": {
+        "name": "Malaysia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/calaysia.json"
+    },
+    "NAM": {
+        "name": "Namibia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/namibia.json"
+    },
+    "NCL": {
+        "name": "New Caledonia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/new_caledonia.json"
+    },
+    "NER": {
+        "name": "Niger",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/niger.json"
+    },
+    "NFK": {
+        "name": "Norfolk Island",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/norfolk_island.json"
+    },
+    "NGA": {
+        "name": "Nigeria",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/nigeria.json"
+    },
+    "NIC": {
+        "name": "Nicaragua",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/nicaragua.json"
+    },
+    "NIU": {
+        "name": "Niue",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/niue.json"
+    },
+    "NLD": {
+        "name": "Netherlands",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/netherlands.json"
+    },
+    
+    "NPL": {
+        "name": "Nepal",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/nepal.json"
+    },
+    "NRU": {
+        "name": "Nauru",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/nauru.json"
+    },
+    "NZL": {
+        "name": "New Zealand",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/new_zealand.json"
+    },
+    "OMN": {
+        "name": "Oman",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/oman.json"
+    },
+    "PAK": {
+        "name": "Pakistan",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/pakistan.json"
+    },
+    "PAN": {
+        "name": "Panama",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/panama.json"
+    },
+    "PCN": {
+        "name": "Pitcairn",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/pitcairn.json"
+    },
+    "PER": {
+        "name": "Peru",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/peru.json"
+    },
+    "PHL": {
+        "name": "Philippines",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/philippines.json"
+    },
+    "PLW": {
+        "name": "Palau",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/palau.json"
+    },
+    "PNG": {
+        "name": "Papua New Guinea",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/papua_new_guinea.json"
+    },
+    "POL": {
+        "name": "Poland",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/poland.json"
+    },
+    "PRI": {
+        "name": "Puerto Rico",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/puerto_rico.json"
+    },
+    "PRT": {
+        "name": "Portugal",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/portugal.json"
+    },
+    "PRY": {
+        "name": "Paraguay",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/paraguay.json"
+    },
+    "PSE": {
+        "name": "Palestine, State of",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/palestine_state_of.json"
+    },
+    "PYF": {
+        "name": "French Polynesia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/french_polynesia.json"
+    },
+    "QAT": {
+        "name": "Qatar",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/qatar.json"
+    },
+    "ROU": {
+        "name": "Romania",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/romania.json"
+    },
+    "RWA": {
+        "name": "Rwanda",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/rwanda.json"
+    },
+    "SAU": {
+        "name": "Saudi Arabia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/saudi_arabia.json"
+    },
+    "SDN": {
+        "name": "Sudan",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/sudan.json"
+    },
+    "SEN": {
+        "name": "Senegal",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/senegal.json"
+    },
+    "SGP": {
+        "name": "Singapore",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/singapore.json"
+    },
+    "SGS": {
+        "name": "South Georgia and the South Sandwich Islands",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/south_georgia_and_the_south_sandwich_islands.json"
+    },
+    "SHN": {
+        "name": "Saint Helena, Ascension and Tristan da Cunha",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/saint_helena_ascension_and_tristan_da_cunha.json"
+    },
+    "SLB": {
+        "name": "Solomon Islands",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/solomon_islands.json"
+    },
+    "SLE": {
+        "name": "Sierra Leone",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/sierra_leone.json"
+    },
+    "SLV": {
+        "name": "El Salvador",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/el_salvador.json"
+    },
+    "SMR": {
+        "name": "San Marino",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/san_marino.json"
+    },
+    "SOM": {
+        "name": "Somalia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/somalia.json"
+    },
+    "SPM": {
+        "name": "Saint Pierre and Miquelon",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/saint_pierre_and_miquelon.json"
+    },
+    "SRB": {
+        "name": "Serbia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/serbia.json"
+    },
+    "SSD": {
+        "name": "South Sudan",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/south_sudan.json"
+    },
+    "STP": {
+        "name": "Sao Tome and Principe",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/sao_tome_and_principe.json"
+    },
+    "SUR": {
+        "name": "Suriname",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/suriname.json"
+    },
+    "SVK": {
+        "name": "Slovakia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/slovakia.json"
+    },
+    
+    "SWE": {
+        "name": "Sweden",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/sweden.json"
+    },
+    "SWZ": {
+        "name": "Swaziland",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/swaziland.json"
+    },
+    "SXM": {
+        "name": "Sint Maarten (Dutch part)",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/sint_maarten_dutch_part.json"
+    },
+    "SYC": {
+        "name": "Seychelles",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/seychelles.json"
+    },
+    "SYR": {
+        "name": "Syrian Arab Republic",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/syrian_arab_republic.json"
+    },
+    "TCA": {
+        "name": "Turks and Caicos Islands",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/turks_and_caicos_islands.json"
+    },
+    "TCD": {
+        "name": "Chad",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/chad.json"
+    },
+    "TGO": {
+        "name": "Togo",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/togo.json"
+    },
+    "THA": {
+        "name": "Thailand",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/thailand.json"
+    },
+    "TJK": {
+        "name": "Tajikistan",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/tajikistan.json"
+    },
+    "TKM": {
+        "name": "Turkmenistan",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/turkmenistan.json"
+    },
+    "TLS": {
+        "name": "Timor-Leste",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/timor-leste.json"
+    },
+    "TON": {
+        "name": "Tonga",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/tonga.json"
+    },
+    "TTO": {
+        "name": "Trinidad and Tobago",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/trinidad_and_tobago.json"
+    },
+    "TUN": {
+        "name": "Tunisia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/tunisia.json"
+    },
+    "TUR": {
+        "name": "Turkey",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/turkey.json"
+    },
+    "TUV": {
+        "name": "Tuvalu",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/tuvalu.json"
+    },
+    "TWN": {
+        "name": "Taiwan, Province of China",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/taiwan_province_of_china.json"
+    },
+    
+    "UGA": {
+        "name": "Uganda",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/uganda.json"
+    },
+    "UKR": {
+        "name": "Ukraine",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/ukraine.json"
+    },
+    "UMI": {
+        "name": "United States Minor Outlying Islands",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/united_states_minor_outlying_islands.json"
+    },
+    "URY": {
+        "name": "Uruguay",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/uruguay.json"
+    },
+    "USA": {
+        "name": "United States of America",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/united_states_of_america.json"
+    },
+    "UZB": {
+        "name": "Uzbekistan",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/uzbekistan.json"
+    },
+    "VAT": {
+        "name": "Holy See",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/holy_see.json"
+    },
+    "VCT": {
+        "name": "Saint Vincent and the Grenadines",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/saint_vincent_and_the_grenadines.json"
+    },
+    "VEN": {
+        "name": "Venezuela, Bolivarian Republic of",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/venezuela_bolivarian_republic_of.json"
+    },
+    "VGB": {
+        "name": "Virgin Islands, British",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/virgin_islands_british.json"
+    },
+    "VIR": {
+        "name": "Virgin Islands, U.S.",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/virgin_islands_u.s..json"
+    },
+    "VNM": {
+        "name": "Viet Nam",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/viet_nam.json"
+    },
+    "VUT": {
+        "name": "Vanuatu",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/vanuatu.json"
+    },
+    "WLF": {
+        "name": "Wallis and Futuna",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/wallis_and_futuna.json"
+    },
+    "WSM": {
+        "name": "Samoa",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/samoa.json"
+    },
+    "YEM": {
+        "name": "Yemen",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/yemen.json"
+    },
+    "ZAF": {
+        "name": "South Africa",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/south_africa.json"
+    },
+    "ZMB": {
+        "name": "Zambia",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/zambia.json"
+    },
+    "ZWE": {
+        "name": "Zimbabwe",
+        "color": "#cccccc",
+        "capital": { "name": "Unknown", "lat": 0.0, "lng": 0.0 },
+        "map": "maps/zimbabwe.json"
+    }
+}

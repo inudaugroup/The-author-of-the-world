@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <style>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Author of the World</title>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+        <style>
         #map {
-        height: 600px; /* ここの数値は適宜調整してください */
-        width: 100%;
+            height: 600px; /* ここの数値は適宜調整してください */
+            width: 100%;
         }
         .hp-container{
             width: 100px;
@@ -35,6 +38,56 @@
             width:100%;
             margin:2px 0;
         }
+
+        /* ーーー インラインスタイルから移行したクラス ーーー */
+        #countrySelectModal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.85);
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .modal-title {
+            margin-bottom: 30px;
+            font-size: 36px;
+        }
+
+        .btn-container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .btn-country {
+            padding: 20px 40px;
+            font-size: 20px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        /* 各国家ボタン固有の背景色・文字色 */
+        .btn-snl {
+            background: blue;
+        }
+
+        .btn-jpn {
+            background: #9e2a2b;
+        }
+
+        .btn-chn {
+            background: #ffb703;
+            color: black;
+        }
     </style>
 </head>
 
@@ -49,24 +102,26 @@
     <div id="map"></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="army.js"></script>
     <script src="game.js"></script>
-</body>
-<!-- 国家選択画面のUI -->
-<div id="countrySelectModal" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 9999; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white;">
-    <h1 style="margin-bottom: 30px; font-size: 36px;">国家を選択してください</h1>
-    <div style="display: flex; gap: 20px;">
-        <!-- スネイリ（オホーツク帝国） -->
-        <button onclick="selectCountry('SNL')" style="padding: 20px 40px; font-size: 20px; background: blue; color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">
-            スネイリ民主主義共和国 (SNL)
-        </button>
-        <!-- 日本 -->
-        <button onclick="selectCountry('JPN')" style="padding: 20px 40px; font-size: 20px; background: #9e2a2b; color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">
-            日本国 (JPN)
-        </button>
-        <!-- 中国 -->
-        <button onclick="selectCountry('CHN')" style="padding: 20px 40px; font-size: 20px; background: #ffb703; color: black; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">
-            中華民国 (CHN)
-        </button>
+
+    <!-- 国家選択画面のUI（クラスを適用してスッキリさせました） -->
+    <div id="countrySelectModal">
+        <h1 class="modal-title">国家を選択してください</h1>
+        <div class="btn-container">
+            <!-- スネイリ（オホーツク帝国） -->
+            <button onclick="selectCountry('SNL')" class="btn-country btn-snl">
+                スネイリ民主主義共和国 (SNL)
+            </button>
+            <!-- 日本 -->
+            <button onclick="selectCountry('JPN')" class="btn-country btn-jpn">
+                日本国 (JPN)
+            </button>
+            <!-- 中国 -->
+            <button onclick="selectCountry('CHN')" class="btn-country btn-chn">
+                中華民国 (CHN)
+            </button>
+        </div>
     </div>
-</div>
+</body>
 </html>

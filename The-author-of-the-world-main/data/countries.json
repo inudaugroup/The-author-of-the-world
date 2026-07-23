@@ -7,7 +7,7 @@
             "lat": 49.3769,
             "lng": 144.0072
         },
-        "map": "maps/pref.json",
+        "map": "maps/snaili.json",
         "backupcities": [
             {
                 "name": "アイスポーク",
@@ -16,9 +16,89 @@
             }
         ]
     },
+    "KOR": {
+        "name": "大韓民国",
+        "color": "#6bb6ff",
+        "capital": {
+            "name": "ソウル",
+            "lat": 37.5665,
+            "lng": 126.9780
+        },
+        "map": "maps/korea(s).json"
+    },
+    "RUS": {
+        "name": "ロシア連邦",
+        "color": "#4d7336",
+        "capital": {
+            "name": "モスクワ",
+            "lat": 55.7558,
+            "lng": 37.6173
+        },
+        "map": "maps/russia.json"
+    },
+    "JPN": {
+        "name": "日本国",
+        "color": "pink",
+        "capital": {
+            "name": "東京都",
+            "lat": 35.6895,
+            "lng": 139.6917
+        },
+        "map": "maps/japan.json"
+    },
+    "DPRK": {
+        "name": "朝鮮民主主義人民共和国",
+        "color": "#ff0000",
+        "capital": {
+            "name": "平壌",
+            "lat": 39.0392,
+            "lng": 125.7625
+        },
+        "map": "maps/korea(n).json"
+    },
+    "KAZ": {
+        "name": "Kazakhstan",
+        "color": "#1ca9c9",
+        "capital": {
+            "name": "アスタナ",
+            "lat": 51.1605,
+            "lng": 71.4704
+        },
+        "map": "maps/kazakhstan.json"
+    },
+    "ITA": {
+        "name": "Italy",
+        "color": "#2e7d32",
+        "capital": {
+            "name": "ローマ",
+            "lat": 41.9028,
+            "lng": 12.4964
+        },
+        "map": "maps/italy.json"
+    },
+    "AFG": {
+        "name": "Afghanistan",
+        "color": "#cca366",
+        "capital": {
+            "name": "カブール",
+            "lat": 34.5553,
+            "lng": 69.2075
+        },
+        "map": "maps/afghanistan.json"
+    },
+    "AND": {
+        "name": "Andorra",
+        "color": "#1b4d8f",
+        "capital": {
+            "name": "アンドラ・ラ・ベリャ",
+            "lat": 42.5063,
+            "lng": 1.5218
+        },
+        "map": "maps/andorra.json"
+    },
     "CHN": {
         "name": "中華人民共和国",
-        "color": "yellow",
+        "color": "#b30000",
         "capital": {
             "name": "北京市",
             "lat": 39.9042,
@@ -48,44 +128,94 @@
             }
         ]
     },
-    "KOR" : {
-        "name": "大韓民国",
-        "color": "#6bb6ff",
+    "EST": {
+        "name": "Estonia",
+        "color": "#3a7dcf",
         "capital": {
-            "name": "ソウル",
-            "lat": 37.5665,
-            "lng": 126.9780
+            "name": "タリン",
+            "lat": 59.4370,
+            "lng": 24.7536
         },
-        "map": "maps/korea(s).json"
+        "map": "maps/estonia.json"
     },
-    "RUS" : {
-        "name": "ロシア連邦",
-        "color": "#4d7336",
+    "IND": {
+        "name": "India",
+        "color": "#308fbf",
         "capital": {
-            "name": "モスクワ",
-            "lat": 55.7558,
-            "lng": 37.6173
+            "name": "ニューデリー",
+            "lat": 28.6139,
+            "lng": 77.2090
         },
-        "map": "maps/russian.json"
+        "map": "maps/india.json"
     },
-    "JPN" : {
-        "name": "日本国",
-        "color": "pink",
+    "IRL": {
+        "name": "Ireland",
+        "color": "#22aa44",
         "capital": {
-            "name": "東京都",
-            "lat": 35.6895,
-            "lng": 139.6917
+            "name": "ダブリン",
+            "lat": 53.3498,
+            "lng": -6.2603
         },
-        "map": "maps/japan.json"
+        "map": "maps/ireland.json"
     },
-    "DPRK" : {
-        "name": "朝鮮民主主義人民共和国",
-        "color": "#ff0000",
+    "LAO": {
+        "name": "Lao People's Democratic Republic",
+        "color": "#8b1a1a",
         "capital": {
-            "name": "平壌",
-            "lat": 39.0392,
-            "lng": 125.7625
+            "name": "ビエンチャン",
+            "lat": 17.9757,
+            "lng": 102.6331
         },
-        "map": "maps/korea(n).json"
+        "map": "maps/laos.json"
+    },
+    "MLT": {
+        "name": "Malta",
+        "color": "#b01f1f",
+        "capital": {
+            "name": "バレッタ",
+            "lat": 35.8989,
+            "lng": 14.5146
+        },
+        "map": "maps/malta.json"
+    },
+    "MNE": {
+        "name": "Montenegro",
+        "color": "#8b7500",
+        "capital": {
+            "name": "ポドゴリツァ",
+            "lat": 42.4304,
+            "lng": 19.2594
+        },
+        "map": "maps/montenegro.json"
+    },
+    "NOR": {
+        "name": "Norway",
+        "color": "#632727",
+        "capital": {
+            "name": "オスロ",
+            "lat": 59.9139,
+            "lng": 10.7522
+        },
+        "map": "maps/norway.json"
+    },
+    "SVN": {
+        "name": "Slovenia",
+        "color": "#2060a0",
+        "capital": {
+            "name": "リュブリャナ",
+            "lat": 46.0569,
+            "lng": 14.5058
+        },
+        "map": "maps/slovenia.json"
+    },
+    "TZA": {
+        "name": "Tanzania, United Republic of",
+        "color": "#1f7d43",
+        "capital": {
+            "name": "ドドマ",
+            "lat": -6.1630,
+            "lng": 35.7516
+        },
+        "map": "maps/tanzania.json"
     }
 }
